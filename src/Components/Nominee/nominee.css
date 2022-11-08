@@ -1,0 +1,37 @@
+.nominee__card {
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 15px;
+    width: 20vw;
+    height: 30vh;
+    background-color: #009B86;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.nominee__card:hover {
+    background-color: #34AC9C;
+}
+
+.nominee__img{
+    height: 20vh;
+    width: 10vw;
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+.highlight {
+    border: 4px solid yellow;
+}
+
+@media only screen and (max-width: 800px) {
+    .nominee__card {
+        width: 60vw
+    }
+
+    .nominee__img{
+        width: 30vw;
+    }
+}

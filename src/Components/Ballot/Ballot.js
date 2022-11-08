@@ -3,7 +3,7 @@ import React from 'react';
 const Ballot = () => {
   return (
     <div className='ballot'>
-      Hi I'm Movie Award 
+      Hi I'm Movi 
     </div>
   )
 }
