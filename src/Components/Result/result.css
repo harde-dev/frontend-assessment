@@ -14,13 +14,19 @@
   
 .modal__result {
     margin-top: -20vh;
-    display: flex;
+    padding: 10px;
+    /* display: flex; */
     font-size: 2rem;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: white;
     width: 60vw;
     height: 50vh;
     color: black;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .modal__result-ballots {
@@ -36,4 +42,5 @@
 
 .modal__close-btn {
     width: 4vw;
+    top: 15px;
 }
