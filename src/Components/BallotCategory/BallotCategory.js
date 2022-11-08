@@ -1,8 +1,11 @@
 import React from 'react'
+import Nominee from '../Nominee/Nominee'
 
 const BallotCategory = () => {
   return (
-    <div>BallotCategory</div>
+    <div>BallotCategory
+        <Nominee />
+    </div>
   )
 }
 
