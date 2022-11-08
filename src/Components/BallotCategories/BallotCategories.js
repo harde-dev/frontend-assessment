@@ -13,7 +13,7 @@ const BallotCategories = ({ ballot, moveSelections }) => {
                 key={nominee.id}
                 id={nominee.id}
                 title={nominee.title}
-                image={nominee.imageUrl}
+                photo={nominee.photoUrl}
                 highlight={highlight}
             />
         })

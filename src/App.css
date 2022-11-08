@@ -6,6 +6,30 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.app__submit {
+  border: 1px solid white;
+  width: 20vw;
+  height: 5vh;
+  margin: 5vh;
+  margin-left: 30vw;
+  box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+  font-size: 1.5rem;
+}
+
+.app__submit:hover {
+  background-color: #34AC9C;
+  color: #000000;
+}
+
+@media only screen and (max-width: 800px) {
+  .app__submit {
+    width: 40vw;
+    margin-left: 20vw;
+  }
 }
 
 .App-link {
