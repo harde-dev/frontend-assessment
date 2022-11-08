@@ -1,15 +1,22 @@
-import './App.css';
+import { useState, useEffect } from 'react';
+import api from "./Api/Api";
 import Ballot from './Components/Ballot/Ballot';
 
-function App() {
-  return (
+import './App.css';
 
+function App() {
+  const [ballot, setBallot] = useState([]);
+
+  const moveSelections = () => {
+    
+  }
+  return (
     <>
       <header className="app__header">
         <h1>Awards 2022</h1>
       </header>
       <div className="app__main">
-        <Ballot />
+        <Ballot ballot={ballot} moveSelections={moveSelections} />
       </div>
     </>
   );

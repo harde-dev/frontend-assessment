@@ -1,8 +1,8 @@
-.App {
+.app__main {
   text-align: center;
 }
 
-.App-header {
+.app__header {
   display: flex;
   align-items: center;
   justify-content: center;
