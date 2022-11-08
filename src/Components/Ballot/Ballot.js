@@ -1,10 +1,16 @@
-import React from 'react';
+import BallotCategories from "../BallotCategories/BallotCategories";
 
-const Ballot = () => {
+const Ballot = ({ ballot, moveSelections }) => {
+  const showBallot = (ballot) => {
+    return ballot.map(categories => {
+      return <BallotCategories key={categories.id} ballot={categories} moveSelections={moveSelections} />
+    });
+  };
+
   return (
-    <div className='ballot'>
-      'Your Code Goes Here'
-    </div>
+    <>
+      {showBallot(ballot)}
+    </>
   )
 }
 

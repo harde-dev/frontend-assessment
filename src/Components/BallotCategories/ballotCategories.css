@@ -1,0 +1,25 @@
+.categories {
+    background-color: #808080;
+    color: #ffffff;
+    box-shadow: 0 10px 20px -8px #000000b3;
+}
+
+.categories__header {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.categories__main {
+    margin-bottom: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 800px) {
+    .categories__main {
+        flex-direction: column;
+    }
+}
